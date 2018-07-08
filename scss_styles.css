@@ -1,0 +1,26 @@
+.danger-message, .success-message {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  border: 1px solid black;
+  padding: 10px;
+  color: gainsboro;
+}
+
+div ul li {
+  color: green;
+  font-size: 15px;
+}
+div ol li {
+  color: blue;
+  font-size: 15px;
+}
+
+.success-message {
+  background-color: green;
+}
+
+.danger-message {
+  background-color: red;
+}
+
+/*# sourceMappingURL=scss_styles.css.map */

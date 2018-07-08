@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flight Booking</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="scss_styles.css">
+    </head>
+    <header>
+        <div>
+            <a href="index.html">Home</a>
+            ||
+            <a href="book_flight.html">Book Flight</a>
+            ||
+            <a href="about.html">About</a>
+            ||
+            <a href="contact.html">Contact Support</a>
+        </div>
+    </header>
+    <body>
+        <div>
+            <h1>All Flights</h1>
+        </div>
+        <div class="success-message center"> Flight List is Available!</div>
+        <div>
+            <img src="flight_1.jpg" class="center">
+        </div>
+        <div class="container-demo center">
+            <div id="airline" class="col-sm-4">
+                <h3>List of Airline</h3>
+                <ul>
+                    <li>Alaska Airlines</li>
+                    <li>Allegiant Air</li>
+                    <li>American Airlines</li>
+                    <li>Delta Air Lines</li>
+                    <li>Frontier Airlines</li>
+                    <li>Hawaiian Airlines</li>
+                    <li>JetBlue Airways</li>
+                    <li>Southwest Airlines</li>
+                    <li>Spirit Airlines</li>
+                    <li>Sun Country Airlines</li>
+                    <li>United Airlines</li>
+                </ul>
+            </div>
+            <div id="flights" class="col-sm-4">
+                <h3>List of Today's Flights</h3>
+                <ol>
+                    <li>New York to Paris</li>
+                    <li>Moscow to New York</li>
+                    <li>Oakland to Houston</li>
+                    <li>Shannon to New York Stewart</li>
+                    <li>Los Angeles to Singapore</li>
+                </ol>
+            </div>
+            <div id="goto" class="col-sm-4">
+                <h3><a href="#arrivals"> Go to Arrivals</a></h3>
+            </div>
+            <div id="arrivals">
+                <h3>Arrivals</h3>
+                <table border="2" class="tbl">
+                    <thead>
+                        <th>Flight #</th>
+                        <th>Airline</th>
+                        <th>Arriving From</th>
+                        <th>Gate</th>
+                        <th>Status</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2659</td>
+                            <td>Allegiant Air</td>
+                            <td>Oakland</td>
+                            <td>5</td>
+                            <td>On Time</td>
+                        </tr>
+                        <tr class="late">
+                            <td>1256</td>
+                            <td>JetBlue Airways</td>
+                            <td>Shannon</td>
+                            <td>3</td>
+                            <td>Late</td>
+                        </tr>
+                        <tr>
+                            <td>3589</td>
+                            <td>United Airlines</td>
+                            <td>Moscow</td>
+                            <td>9</td>
+                            <td>On Time</td>
+                        </tr>
+                        <tr>
+                            <td>9852</td>
+                            <td>Spirit Airlines</td>
+                            <td>New York</td>
+                            <td>1</td>
+                            <td>On Time</td>
+                        </tr>
+                        <tr class="late">
+                            <td>0089</td>
+                            <td>American Airlines</td>
+                            <td>Los Angeles</td>
+                            <td>7</td>
+                            <td>Late</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

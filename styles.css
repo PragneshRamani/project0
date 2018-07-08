@@ -1,0 +1,53 @@
+header{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: greenyellow;
+    font-size: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover{
+    text-decoration: none;
+    color: green;
+}
+#airline,#flights,#arrivals,#goto{
+    color:royalblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.container-demo{
+    display: flex;
+    flex-wrap : wrap;
+}
+.tbl{
+    border-collapse: collapse;
+}
+.tbl > thead{
+    background: green;
+    color: white;
+}
+.tbl > tbody > .late{
+    color: red;
+}
+h4{
+    color: fuchsia;
+}
+@media (max-width:500px){
+    #goto{
+        display: none;
+    }
+    .tbl > thead{
+        background:red;
+        color: white;
+    }
+    #airline,#flights,#arrivals,#goto{
+        color:gold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}

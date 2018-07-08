@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flight Booking</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="scss_styles.css">
+    </head>
+    <header>
+        <div>
+            <a href="index.html">Home</a>
+            ||
+            <a href="book_flight.html">Book Flight</a>
+            ||
+            <a href="about.html">About</a>
+            ||
+            <a href="contact.html">Contact Support</a>
+        </div>
+    </header>
+    <body>
+        <div>
+            <h1>Book Flight</h1>
+        </div>
+        <div class="success-message center"> Now Flight Booking is Available!</div>
+        <div>
+            <img src="flight_1.jpg" class="center">
+        </div>
+        <div class="center">
+            <div>
+                <h3>Book your Flight</h3>
+                <form>
+                    <div class="row col-lg-12">
+                        <div class="form-group col-lg-12">
+                            <label for="name">Name</label>
+                            <input type="tezt" class="form-control" id="name" placeholder="Enter your Name">
+                        </div>
+                    </div>
+                    <div class="row col-lg-12">
+                        <div class="form-group col-lg-6">
+                            <label for="Origin">Origin</label>
+                            <select id="Origin" class="form-control">
+                                <option selected>Select Origin...</option>
+                                <option>New York</option>
+                                <option>Moscow</option>
+                                <option>Oakland</option>
+                                <option>Shannon</option>
+                                <option>Los Angeles</option>
+                                <option>Singapore</option>
+                                <option>Houston</option>
+                                <option>Paris</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label for="Destination">Destination</label>
+                            <select id="Destination" class="form-control">
+                                <option selected>Select Destination...</option>
+                                <option>New York</option>
+                                <option>Moscow</option>
+                                <option>Oakland</option>
+                                <option>Shannon</option>
+                                <option>Los Angeles</option>
+                                <option>Singapore</option>
+                                <option>Houston</option>
+                                <option>Paris</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row col-lg-12">
+                        <div class="form-group col-lg-12">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <div class="container">
+                    <h3>Bootstrap Grid</h3>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h4>Column-1</h4>
+                            <img src="flight_2.jpg" width="80%">
+                        </div>
+                        <div class="col-sm-4">
+                            <h4>Column-2</h4>
+                            <img src="flight_3.jpg" width="80%">
+                        </div>
+                        <div class="col-sm-4">
+                            <h4>Column-3</h4>
+                            <img src="flight_4.jpg" width="80%">
+                        </div>
+                    </div>
+                </div>
+                <h3>Booked Flight</h3>
+                <table class="table">
+                    <thead>
+                        <tr >
+                            <th scope="col-lg-2">#</th>
+                            <th scope="col-lg-3">Date</th>
+                            <th scope="col-lg-3">Origin</th>
+                            <th scope="col-lg-3">Destination</th>
+                            <th scope="col-lg-1">Total Passenger</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>07/08/2018</td>
+                            <td>New York</td>
+                            <td>Paris</td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>07/12/2018</td>
+                            <td>Moscow</td>
+                            <td>New York</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>07/15/2018</td>
+                            <td>Oakland</td>
+                            <td>Houston</td>
+                            <td>25</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
