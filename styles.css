@@ -39,6 +39,12 @@ h4{
     color: fuchsia;
 }
 @media (max-width:500px){
+    body{
+        background-color: gainsboro;
+    }
+    h1{
+        color: white;
+    }
     #goto{
         display: none;
     }
@@ -47,7 +53,7 @@ h4{
         color: white;
     }
     #airline,#flights,#arrivals,#goto{
-        color:gold;
+        color:white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
